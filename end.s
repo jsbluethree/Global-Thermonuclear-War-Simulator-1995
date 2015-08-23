@@ -8,7 +8,7 @@
 ; TileMap Size      : 20x18
 ; 
 
-.area _CODE_4
+.area _CODE_1
 
 .globl _end_tiledata
 

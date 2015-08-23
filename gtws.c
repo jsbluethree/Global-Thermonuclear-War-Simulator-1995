@@ -31,7 +31,7 @@ void end(){
 	wait_vbl_done();
 	DISPLAY_OFF;
 	HIDE_SPRITES;
-	SWITCH_ROM_MBC1(4);
+	SWITCH_ROM_MBC1(1);
 	set_bkg_data(0, 221, end_tiledata);
 	set_bkg_tiles(0, 0, 20, 18, end_tilemap);
 	SHOW_BKG;
